@@ -13,9 +13,6 @@ public:
                 nums[j - i] = nums[j];
             }
         }
-        for (int i : nums) {
-            std::cout << i << " ";
-        }
         return nums.size() - i;
     }
 };
