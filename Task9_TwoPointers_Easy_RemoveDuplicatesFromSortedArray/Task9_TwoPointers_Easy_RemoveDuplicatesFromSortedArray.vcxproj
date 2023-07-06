@@ -24,6 +24,7 @@
     <ProjectGuid>{5d2d3916-9dc0-45ca-8de5-86b904b3e70a}</ProjectGuid>
     <RootNamespace>Task9TwoPointersEasyRemoveDuplicatesFromSortedArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Task10_TwoPointers_Easy_RemoveDuplicatesFromSortedArray</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Task9_TwoPointers_Easy_RemoveDuplicatesFromSortedArray.cpp" />
+    <ClCompile Include="Task10_TwoPointers_Easy_RemoveDuplicatesFromSortedArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
