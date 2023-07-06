@@ -5,13 +5,18 @@ class Solution {
 public:
     static int removeDuplicates(std::vector<int>& nums) {
         int i = 0;
-        for (int j = 1; j < nums.size(); j++) {
-            if (nums[i] != nums[j]) {
+        for (int j = 1;j < nums.size();j++) {
+            if (nums[j-1] == nums[j]) {
                 i++;
-                nums[i] = nums[j];
+            }
+            else {
+                nums[j - i] = nums[j];
             }
         }
-        return i + 1;
+        for (int i : nums) {
+            std::cout << i << " ";
+        }
+        return nums.size() - i;
     }
 };
 
